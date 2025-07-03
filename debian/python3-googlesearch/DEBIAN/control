@@ -1,0 +1,13 @@
+Package: python3-googlesearch
+Source: python-googlesearch
+Version: 1.3.0-1
+Architecture: all
+Maintainer: Aryan Karamtoth <aryankmmiv@outlook.com>
+Installed-Size: 30
+Depends: python3-bs4 (>= 4.9), python3-requests, python3:any
+Section: main
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/Nv7-GitHub/googlesearch
+Description: A Python library for scraping the Google search engine.
+ googlesearch is a Python library for searching Google, easily. googlesearch uses requests and BeautifulSoup4 to scrape Google.

@@ -1,0 +1,27 @@
+Source: python-googlesearch
+Section: main
+Priority: optional
+Maintainer: Aryan Karamtoth <aryankmmiv@outlook.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ python3-setuptools,
+ python3-all,
+#Testsuite: autopkgtest-pkg-python
+Standards-Version: 4.6.2
+Homepage: https://github.com/Nv7-GitHub/googlesearch
+#Vcs-Browser: https://salsa.debian.org/debian/googlesearch
+#Vcs-Git: https://salsa.debian.org/debian/googlesearch.git
+
+Package: python3-googlesearch
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+ python3-bs4,
+ python3-requests,
+Description: A Python library for scraping the Google search engine. 
+ googlesearch is a Python library for searching Google, easily. googlesearch uses requests and BeautifulSoup4 to scrape Google.
+

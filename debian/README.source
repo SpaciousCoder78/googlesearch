@@ -1,0 +1,8 @@
+googlesearch for Debian
+----------------------
+
+googlesearch is a Python library for searching Google, easily. googlesearch uses requests and BeautifulSoup4 to scrape Google.
+
+
+ -- Aryan Karamtoth <aryankmmiv@outlook.com>  Tue, 01 Jul 2025 09:34:36 +0530
+
